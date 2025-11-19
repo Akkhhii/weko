@@ -1,0 +1,99 @@
+export default function Companies() {
+  return (
+    <section className="relative py-20 px-6 w-full overflow-hidden">
+
+      <div
+        className="absolute inset-0 bg-cover bg-center brightness-30"
+        style={{
+          backgroundImage: "url('/bg5.png')",
+        }}
+      ></div>
+
+      <div className="relative z-10 max-w-6xl mx-auto">
+
+        <h2 className="text-3xl sm:text-4xl font-bold text-center mb-14 tracking-widest text-white">
+          OUR COMPANIES
+        </h2>
+
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-10">
+
+          {/* Creative Fields */}
+          <div className="bg-white/10 backdrop-blur-md p-6 rounded-xl shadow-xl border border-white/20 hover:scale-105 hover:shadow-2xl transition-all duration-300 cursor-pointer text-white">
+            <img
+              src="/logo5.png"
+              alt="Creative Fields"
+              className="w-full h-65 object-cover rounded-lg mb-4"
+            />
+            <h3 className="text-xl font-bold mb-3">Creative Fields</h3>
+            <p className="opacity-90 mb-4 text-sm sm:text-base">
+              A full-scale PR and digital marketing agency to grow brands,
+              influencers, startups, and companies.
+            </p>
+            <button className="px-4 py-2 bg-white text-black rounded-md font-semibold hover:bg-transparent hover:border hover:border-white/50 hover:text-white hover:font-normal transition-all duration-300">
+              GROW YOUR BRAND
+            </button>
+          </div>
+
+          {/* Weko.Pro */}
+          <div className="bg-white/10 backdrop-blur-md p-6 rounded-xl shadow-xl border border-white/20 hover:scale-105 hover:shadow-2xl transition-all duration-300 cursor-pointer text-white">
+            <img
+              src="/logo2.png"
+              alt="Weko Pro"
+              className="w-full h-65 object-cover rounded-lg mb-4"
+            />
+            <h3 className="text-xl font-bold mb-3">Weko.Pro</h3>
+            <p className="opacity-90 mb-4 text-sm sm:text-base">
+              A next-generation fintech marketplace connecting professional traders
+              with paying clients.
+            </p>
+            <button className="px-4 py-2 bg-white text-black rounded-md font-semibold hover:bg-transparent hover:border hover:border-white/50 hover:text-white hover:font-normal transition-all duration-300">
+              EXPLORE THE PLATFORM
+            </button>
+          </div>
+
+          {/* OOM Academy */}
+          <div className="bg-white/10 backdrop-blur-md p-6 rounded-xl shadow-xl border border-white/20 hover:scale-105 hover:shadow-2xl transition-all duration-300 cursor-pointer text-white">
+            <img
+              src="/logo4.png"
+              alt="OOM Academy"
+              className="w-full h-65 object-cover rounded-lg mb-4"
+            />
+            <h3 className="text-xl font-bold mb-3">OOM Academy</h3>
+            <p className="opacity-90 mb-4 text-sm sm:text-base">
+              A modern education ecosystem transforming how young India learns
+              forex, crypto & financial markets.
+            </p>
+            <button className="px-4 py-2 bg-white text-black rounded-md font-semibold hover:bg-transparent hover:border hover:border-white/50 hover:text-white hover:font-normal transition-all duration-300">
+              BROWSE COURSES
+            </button>
+          </div>
+
+          {/* ⭐ FIXED PAYBACK CARD (CENTERED ON ALL SCREENS) */}
+          <div className="lg:col-span-3 flex justify-center">
+            <div className="bg-white/10 backdrop-blur-md p-6 rounded-xl shadow-xl border border-white/20 hover:scale-105 hover:shadow-2xl transition-all duration-300 cursor-pointer text-white w-full sm:w-auto max-w-sm">
+
+              <img
+                src="/logo3.png"
+                alt="Payback"
+                className="w-full h-65 object-cover rounded-lg mb-4"
+              />
+              <h3 className="text-xl font-bold mb-3">Payback</h3>
+              <p className="opacity-90 mb-4 text-sm sm:text-base">
+                A private capital rewards program built on compliant, transparent,
+                and risk-managed trading in forex and crypto markets.
+              </p>
+
+              <button className="px-4 py-2 bg-white text-black rounded-md font-semibold hover:bg-transparent hover:border hover:border-white/50 hover:text-white hover:font-normal transition-all duration-300">
+                Join Payback Rewards
+              </button>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+  );
+}

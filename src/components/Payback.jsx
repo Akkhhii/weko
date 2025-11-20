@@ -19,7 +19,7 @@ export default function Payback() {
         {/* LEFT: IMAGE CARD (same style as Weko Platform) */}
         <div className="flex justify-center order-2 md:order-1">
           <div className="bg-white/10 backdrop-blur-lg border border-white/20 p-6 rounded-2xl shadow-2xl 
-                          w-[90%] sm:w-80 md:w-full max-w-sm hover:scale-105 transition-all duration-300">
+                          w-[90%] sm:w-80 md:w-full max-w-sm hover:scale-105 transition-all duration-300 xl:mr-56">
 
             <img
               src="/logo3.png"

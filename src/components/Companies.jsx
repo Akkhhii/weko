@@ -1,6 +1,6 @@
 export default function Companies() {
   return (
-    <section className="relative py-20 px-6 w-full overflow-hidden">
+    <section id="companies" className="relative py-20 px-6 w-full overflow-hidden">
 
       <div
         className="absolute inset-0 bg-cover bg-center brightness-30"
@@ -29,9 +29,11 @@ export default function Companies() {
               A full-scale PR and digital marketing agency to grow brands,
               influencers, startups, and companies.
             </p>
-            <button className="px-4 py-2 bg-white text-black rounded-md font-semibold hover:bg-transparent hover:border hover:border-white/50 hover:text-white hover:font-normal transition-all duration-300">
-              GROW YOUR BRAND
-            </button>
+            <a href="https://creativefields.io/" target="/">
+              <button className="px-4 py-2 bg-white text-black rounded-md font-semibold hover:bg-transparent hover:border hover:border-white/50 hover:text-white hover:font-normal transition-all duration-300">
+                GROW YOUR BRAND
+              </button>
+            </a>
           </div>
 
           {/* Weko.Pro */}
@@ -46,9 +48,11 @@ export default function Companies() {
               A next-generation fintech marketplace connecting professional traders
               with paying investors.
             </p>
-            <button className="px-4 py-2 bg-white text-black rounded-md font-semibold hover:bg-transparent hover:border hover:border-white/50 hover:text-white hover:font-normal transition-all duration-300">
-              EXPLORE THE PLATFORM
-            </button>
+            <a href="https://weko.pro/" target="/">
+              <button className="px-4 py-2 bg-white text-black rounded-md font-semibold hover:bg-transparent hover:border hover:border-white/50 hover:text-white hover:font-normal transition-all duration-300 xl:mt-6">
+                EXPLORE THE PLATFORM
+              </button>
+            </a>
           </div>
 
           {/* OOM Academy */}
@@ -63,27 +67,30 @@ export default function Companies() {
               A modern education ecosystem transforming how young India learns
               forex, crypto & financial markets.
             </p>
-            <button className="px-4 py-2 bg-white text-black rounded-md font-semibold hover:bg-transparent hover:border hover:border-white/50 hover:text-white hover:font-normal transition-all duration-300">
-              BROWSE COURSES
-            </button>
+            <a href="https://orbitopportunity.in/" target="/">
+              <button className="px-4 py-2 bg-white text-black rounded-md font-semibold hover:bg-transparent hover:border hover:border-white/50 hover:text-white hover:font-normal transition-all duration-300">
+                BROWSE COURSES
+              </button>
+            </a>
           </div>
 
-            <div className="bg-white/10 backdrop-blur-md p-6 rounded-xl shadow-xl border border-white/20 hover:scale-105 hover:shadow-2xl transition-all duration-300 cursor-pointer text-white w-full sm:w-auto max-w-sm">
+          <div className="bg-white/10 backdrop-blur-md p-6 rounded-xl shadow-xl border border-white/20 hover:scale-105 hover:shadow-2xl transition-all duration-300 cursor-pointer text-white w-full sm:w-auto max-w-sm">
 
-              <img
-                src="/logo3.png"
-                alt="Payback"
-                className="w-full h-65 object-cover rounded-lg mb-4"
-              />
-              <h3 className="text-xl font-bold mb-3">Payback</h3>
-              <p className="opacity-90 mb-4 text-sm sm:text-base">
-                A private capital rewards program built on compliant, transparent,
-                and risk-managed trading in forex and crypto markets.
-              </p>
-
+            <img
+              src="/logo3.png"
+              alt="Payback"
+              className="w-full h-65 object-cover rounded-lg mb-4"
+            />
+            <h3 className="text-xl font-bold mb-3">Payback</h3>
+            <p className="opacity-90 mb-4 text-sm sm:text-base">
+              A private capital rewards program built on compliant, transparent,
+              and risk-managed trading in forex and crypto markets.
+            </p>
+            <a href="https://payback.marketing/" target="/">
               <button className="px-4 py-2 bg-white text-black rounded-md font-semibold hover:bg-transparent hover:border hover:border-white/50 hover:text-white hover:font-normal transition-all duration-300">
-                Join Payback Rewards
+                Join Payback
               </button>
+            </a>
           </div>
 
         </div>

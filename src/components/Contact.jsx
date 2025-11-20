@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <section className="relative py-20 px-6 w-full overflow-hidden">
+    <section id="contact" className="relative py-20 px-6 w-full overflow-hidden">
       {/* Overlay */}
       <div className="absolute inset-0 bg-gradient-to-bl from-black via-indigo-950 to-black/50"></div>
 

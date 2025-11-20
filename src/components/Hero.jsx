@@ -1,4 +1,12 @@
 export default function Hero() {
+
+  const scrollToSection = (id) => {
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <section className="relative min-h-screen w-full overflow-hidden">
 
@@ -11,7 +19,7 @@ export default function Hero() {
       >
         <source src="/weko.mp4" type="video/mp4" />
       </video>
-      
+
       <div className="absolute inset-0 bg-black/30"></div>
 
       <div className="relative z-10 flex flex-col items-center justify-center text-center min-h-screen px-4 text-white">
@@ -30,11 +38,15 @@ export default function Hero() {
         {/* Buttons Group */}
         <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 w-full sm:w-auto justify-center items-center px-6 mt-16">
 
-          <button className="w-full sm:w-auto px-6 py-3 border border-white rounded-lg font-semibold cursor-pointer transition-all duration-300 hover:scale-110 hover:shadow-xl hover:shadow-white/20">
+          <button
+            onClick={() => scrollToSection("companies")}
+            className="w-full sm:w-auto px-6 py-3 border border-white rounded-lg font-semibold cursor-pointer transition-all duration-300 hover:scale-110 hover:shadow-xl hover:shadow-white/20">
             Explore Companies
           </button>
 
-          <button className="w-full sm:w-auto px-6 py-3 border border-white rounded-lg font-semibold cursor-pointer transition-all duration-300 hover:scale-110 hover:shadow-xl hover:shadow-white/20">
+          <button
+            onClick={() => scrollToSection("contact")}
+            className="w-full sm:w-auto px-6 py-3 border border-white rounded-lg font-semibold cursor-pointer transition-all duration-300 hover:scale-110 hover:shadow-xl hover:shadow-white/20">
             Join Our Network
           </button>
 

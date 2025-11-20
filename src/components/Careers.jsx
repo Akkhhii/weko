@@ -2,8 +2,7 @@ export default function Careers() {
   return (
     <section className="relative py-20 px-6 w-full overflow-hidden">
 
-      {/* 🔥 Background Gradient */}
-      <div className="absolute inset-0 bg-gradient-to-br from-white via-indigo-950 to-black"></div>
+      <div className="absolute inset-0 bg-gradient-to-br from-black/50 via-indigo-950 to-black"></div>
 
       {/* Content Wrapper */}
       <div className="relative z-10 max-w-7xl mx-auto text-center text-white">
@@ -16,7 +15,7 @@ export default function Careers() {
         <p className="text-lg opacity-80 mb-6 italic">Open Position</p>
 
         {/* Grid of Roles */}
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-10 mt-10">
+        <div className="grid grid-cols-2 md:grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-10 mt-10 justify-center">
 
           {/* 🔹 Role Card */}
           {roles.map((role, index) => (

@@ -2,7 +2,7 @@ export default function Contact() {
   return (
     <section className="relative py-20 px-6 w-full overflow-hidden">
       {/* Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-br from-black via-indigo-950 to-white"></div>
+      <div className="absolute inset-0 bg-gradient-to-bl from-black via-indigo-950 to-black/50"></div>
 
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto flex flex-col text-center md:block md:text-left">

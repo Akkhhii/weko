@@ -11,11 +11,13 @@ export default function Hero() {
     <section className="relative min-h-screen w-full overflow-hidden">
 
       <video
+        src="/weko.mp4"
         className="absolute top-0 left-0 w-full h-full object-cover"
         autoPlay
         loop
         muted
         playsInline
+        preload="auto"
       >
         <source src="/weko.mp4" type="video/mp4" />
       </video>

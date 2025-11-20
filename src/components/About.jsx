@@ -37,7 +37,7 @@ export default function About() {
           className="
         relative flex justify-center mb-6 lg:py-4 
         rounded-full max-w-[70%] lg:w-[43%] mx-auto
-        hover:shadow-white shadow-2xl
+      shadow-white shadow-2xl
       bg-black/10
         transition-all duration-700 ease-out cursor-pointer
       "

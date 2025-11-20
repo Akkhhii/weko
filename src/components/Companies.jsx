@@ -9,13 +9,13 @@ export default function Companies() {
         }}
       ></div>
 
-      <div className="relative z-10 max-w-6xl mx-auto">
+      <div className="relative z-10 max-w-8xl mx-auto">
 
         <h2 className="text-3xl sm:text-4xl font-bold text-center mb-14 tracking-widest text-white">
           OUR COMPANIES
         </h2>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-10">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-10">
 
           {/* Creative Fields */}
           <div className="bg-white/10 backdrop-blur-md p-6 rounded-xl shadow-xl border border-white/20 hover:scale-105 hover:shadow-2xl transition-all duration-300 cursor-pointer text-white">
@@ -44,7 +44,7 @@ export default function Companies() {
             <h3 className="text-xl font-bold mb-3">Weko.Pro</h3>
             <p className="opacity-90 mb-4 text-sm sm:text-base">
               A next-generation fintech marketplace connecting professional traders
-              with paying clients.
+              with paying investors.
             </p>
             <button className="px-4 py-2 bg-white text-black rounded-md font-semibold hover:bg-transparent hover:border hover:border-white/50 hover:text-white hover:font-normal transition-all duration-300">
               EXPLORE THE PLATFORM
@@ -68,8 +68,6 @@ export default function Companies() {
             </button>
           </div>
 
-          {/* ⭐ FIXED PAYBACK CARD (CENTERED ON ALL SCREENS) */}
-          <div className="lg:col-span-3 flex justify-center">
             <div className="bg-white/10 backdrop-blur-md p-6 rounded-xl shadow-xl border border-white/20 hover:scale-105 hover:shadow-2xl transition-all duration-300 cursor-pointer text-white w-full sm:w-auto max-w-sm">
 
               <img
@@ -86,8 +84,6 @@ export default function Companies() {
               <button className="px-4 py-2 bg-white text-black rounded-md font-semibold hover:bg-transparent hover:border hover:border-white/50 hover:text-white hover:font-normal transition-all duration-300">
                 Join Payback Rewards
               </button>
-
-            </div>
           </div>
 
         </div>

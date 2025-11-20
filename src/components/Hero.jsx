@@ -11,7 +11,7 @@ export default function Hero() {
     <section className="relative min-h-screen w-full overflow-hidden">
 
       <video
-        src="/weko2.mov"
+        src="/weko2.mp4"
         className="absolute top-0 left-0 w-full h-full object-cover"
         autoPlay
         loop
@@ -19,7 +19,7 @@ export default function Hero() {
         playsInline
         preload="auto"
       >
-        <source src="/weko.mp4" type="video/mp4" />
+        <source src="/weko2.mp4" type="video/mp4" />
       </video>
 
       <div className="absolute inset-0 bg-black/30"></div>

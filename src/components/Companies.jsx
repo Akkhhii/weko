@@ -15,14 +15,14 @@ export default function Companies() {
           OUR COMPANIES
         </h2>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-10">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-10">
 
           {/* Creative Fields */}
-          <div className="bg-white/10 backdrop-blur-md p-6 rounded-xl shadow-xl border border-white/20 hover:scale-105 hover:shadow-2xl transition-all duration-300 cursor-pointer text-white">
+          <div className="bg-white/10 backdrop-blur-md py-6 px-6 rounded-xl shadow-xl border border-white/20 hover:scale-105 hover:shadow-2xl transition-all duration-300 cursor-pointer text-white relative h-[512px] md:h-[544px] lg:h-[500px] xl:h-[600px]">
             <img
               src="/logo5.png"
               alt="Creative Fields"
-              className="w-full h-65 object-cover rounded-lg mb-4"
+              className="w-full h-65 xl:h-90 object-cover rounded-lg mb-4"
             />
             <h3 className="text-xl font-bold mb-3">Creative Fields</h3>
             <p className="opacity-90 mb-4 text-sm sm:text-base">
@@ -30,18 +30,18 @@ export default function Companies() {
               influencers, startups, and companies.
             </p>
             <a href="https://creativefields.io/" target="/">
-              <button className="px-4 py-2 bg-white text-black rounded-md font-semibold hover:bg-transparent hover:border hover:border-white/50 hover:text-white hover:font-normal transition-all duration-300">
+              <button className="w-[90%] md:w-[85%] lg:w-[90%] py-2 bg-white text-black rounded-md font-semibold hover:bg-transparent hover:border hover:border-white/50 hover:text-white hover:font-normal transition-all duration-300 absolute bottom-6 right-4.5 md:right-6 lg:right-6">
                 GROW YOUR BRAND
               </button>
             </a>
           </div>
 
           {/* Weko.Pro */}
-          <div className="bg-white/10 backdrop-blur-md p-6 rounded-xl shadow-xl border border-white/20 hover:scale-105 hover:shadow-2xl transition-all duration-300 cursor-pointer text-white">
+          <div className="bg-white/10 backdrop-blur-md py-6 px-6 rounded-xl shadow-xl border border-white/20 hover:scale-105 hover:shadow-2xl transition-all duration-300 cursor-pointer text-white relative h-[512px] md:h-[544px] lg:h-[500px] xl:h-[600px]">
             <img
               src="/logo2.png"
               alt="Weko Pro"
-              className="w-full h-65 object-cover rounded-lg mb-4"
+              className="w-full h-65 xl:h-90 object-cover rounded-lg mb-4"
             />
             <h3 className="text-xl font-bold mb-3">Weko.Pro</h3>
             <p className="opacity-90 mb-4 text-sm sm:text-base">
@@ -49,18 +49,18 @@ export default function Companies() {
               with paying investors.
             </p>
             <a href="https://weko.pro/" target="/">
-              <button className="px-4 py-2 bg-white text-black rounded-md font-semibold hover:bg-transparent hover:border hover:border-white/50 hover:text-white hover:font-normal transition-all duration-300 xl:mt-6">
+              <button className="w-[90%] md:w-[85%] lg:w-[90%] py-2 bg-white text-black rounded-md font-semibold hover:bg-transparent hover:border hover:border-white/50 hover:text-white hover:font-normal transition-all duration-300 absolute bottom-6 right-4.5 md:right-6 lg:right-6">
                 EXPLORE THE PLATFORM
               </button>
             </a>
           </div>
 
           {/* OOM Academy */}
-          <div className="bg-white/10 backdrop-blur-md p-6 rounded-xl shadow-xl border border-white/20 hover:scale-105 hover:shadow-2xl transition-all duration-300 cursor-pointer text-white">
+          <div className="bg-white/10 backdrop-blur-md py-6 px-6 rounded-xl shadow-xl border border-white/20 hover:scale-105 hover:shadow-2xl transition-all duration-300 cursor-pointer text-white relative h-[512px] md:h-[544px] lg:h-[500px] xl:h-[600px]">
             <img
               src="/logo4.png"
               alt="OOM Academy"
-              className="w-full h-65 object-cover rounded-lg mb-4"
+              className="w-full h-65 xl:h-90 object-cover rounded-lg mb-4"
             />
             <h3 className="text-xl font-bold mb-3">OOM Academy</h3>
             <p className="opacity-90 mb-4 text-sm sm:text-base">
@@ -68,18 +68,18 @@ export default function Companies() {
               forex, crypto & financial markets.
             </p>
             <a href="https://orbitopportunity.in/" target="/">
-              <button className="px-4 py-2 bg-white text-black rounded-md font-semibold hover:bg-transparent hover:border hover:border-white/50 hover:text-white hover:font-normal transition-all duration-300">
+              <button className="w-[90%] md:w-[85%] lg:w-[90%] py-2 bg-white text-black rounded-md font-semibold hover:bg-transparent hover:border hover:border-white/50 hover:text-white hover:font-normal transition-all duration-300 absolute bottom-6 right-4.5 md:right-6 lg:right-6">
                 BROWSE COURSES
               </button>
             </a>
           </div>
 
-          <div className="bg-white/10 backdrop-blur-md p-6 rounded-xl shadow-xl border border-white/20 hover:scale-105 hover:shadow-2xl transition-all duration-300 cursor-pointer text-white w-full sm:w-auto max-w-sm">
+          <div className="bg-white/10 backdrop-blur-md py-6 px-6 rounded-xl shadow-xl border border-white/20 hover:scale-105 hover:shadow-2xl transition-all duration-300 cursor-pointer text-white relative h-[512px] md:h-[544px] lg:h-[500px] xl:h-[600px]">
 
             <img
               src="/logo3.png"
               alt="Payback"
-              className="w-full h-65 object-cover rounded-lg mb-4"
+              className="w-full h-65 xl:h-90  object-cover rounded-lg mb-4"
             />
             <h3 className="text-xl font-bold mb-3">Payback</h3>
             <p className="opacity-90 mb-4 text-sm sm:text-base">
@@ -87,7 +87,7 @@ export default function Companies() {
               and risk-managed trading in forex and crypto markets.
             </p>
             <a href="https://payback.marketing/" target="/">
-              <button className="px-4 py-2 bg-white text-black rounded-md font-semibold hover:bg-transparent hover:border hover:border-white/50 hover:text-white hover:font-normal transition-all duration-300">
+              <button className="w-[90%] md:w-[85%] lg:w-[90%] py-2 bg-white text-black rounded-md font-semibold hover:bg-transparent hover:border hover:border-white/50 hover:text-white hover:font-normal transition-all duration-300 absolute bottom-6 right-4.5 md:right-6 lg:right-6">
                 Join Payback
               </button>
             </a>

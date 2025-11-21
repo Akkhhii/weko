@@ -10,7 +10,7 @@ export default function Hero() {
   return (
     <section className="relative min-h-screen w-full overflow-hidden">
 
-      <video
+      {/* <video
         src="/weko.mp4"
         className="absolute top-0 left-0 w-full h-full object-cover"
         autoPlay
@@ -20,9 +20,15 @@ export default function Hero() {
         preload="auto"
       >
         <source src="/weko.mp4" type="video/mp4" />
-      </video>
+      </video> */}
+      <div
+        className="absolute inset-0 bg-cover bg-center brightness-30"
+        style={{
+          backgroundImage: "url('/bg9.png')",
+        }}
+      ></div>
 
-      <div className="absolute inset-0 bg-black/30"></div>
+      <div className="absolute inset-0 bg-black/5"></div>
 
       <div className="relative z-10 flex flex-col items-center justify-center text-center min-h-screen px-4 text-white">
 
